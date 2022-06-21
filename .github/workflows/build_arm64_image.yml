@@ -1,9 +1,6 @@
-name: Push Docker Image
+name: Push Docker Image for ARM64
 
-on:
-  push:
-    tags:
-      - v*
+on: [push]
 
 jobs:
   multi:
